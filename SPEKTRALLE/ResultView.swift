@@ -40,7 +40,7 @@ class ResultView: UIViewController{
         result.append("0, 0, 0")
         result = mhz_peaks.componentsSeparatedByString(",")
         if (result.count == 3) {
-            mhz = Int((result[0]))
+            //mhz = Int((result[0]))
             //peak1 = result[1].toInt()!
             //peak2 = result[2].toInt()!
         }
