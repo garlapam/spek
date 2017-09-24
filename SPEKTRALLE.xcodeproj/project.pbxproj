@@ -13,6 +13,16 @@
 		2512DB471DAC24B20048EA4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2512DB461DAC24B20048EA4C /* Images.xcassets */; };
 		2512DB4A1DAC24B20048EA4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2512DB481DAC24B20048EA4C /* LaunchScreen.xib */; };
 		2512DB561DAC24B20048EA4C /* SPEKTRALLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */; };
+		2547B2271F76BFEE00EF7A9A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547B2261F76BFEE00EF7A9A /* ResultView.swift */; };
+		257160D21DAC45EC00CA07ED /* SPEKTRALLE in Resources */ = {isa = PBXBuildFile; fileRef = 257160D11DAC45EC00CA07ED /* SPEKTRALLE */; };
+		257161141DB4378700CA07ED /* c13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610D1DB4378700CA07ED /* c13.png */; };
+		257161151DB4378700CA07ED /* clear button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610E1DB4378700CA07ED /* clear button.png */; };
+		257161161DB4378700CA07ED /* entrybox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610F1DB4378700CA07ED /* entrybox.png */; };
+		257161171DB4378700CA07ED /* go button.png in Resources */ = {isa = PBXBuildFile; fileRef = 257161101DB4378700CA07ED /* go button.png */; };
+		257161181DB4378700CA07ED /* H1.png in Resources */ = {isa = PBXBuildFile; fileRef = 257161111DB4378700CA07ED /* H1.png */; };
+		257161191DB4378700CA07ED /* IR.png in Resources */ = {isa = PBXBuildFile; fileRef = 257161121DB4378700CA07ED /* IR.png */; };
+		2571611A1DB4378700CA07ED /* speklogo.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 257161131DB4378700CA07ED /* speklogo.1.png */; };
+		2571611C1DB439AF00CA07ED /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571611B1DB439AF00CA07ED /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		2512DB4F1DAC24B20048EA4C /* SPEKTRALLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPEKTRALLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2512DB541DAC24B20048EA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPEKTRALLETests.swift; sourceTree = "<group>"; };
+		2547B2261F76BFEE00EF7A9A /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		257160D11DAC45EC00CA07ED /* SPEKTRALLE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SPEKTRALLE; sourceTree = "<group>"; };
+		2571610D1DB4378700CA07ED /* c13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c13.png; sourceTree = "<group>"; };
+		2571610E1DB4378700CA07ED /* clear button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear button.png"; sourceTree = "<group>"; };
+		2571610F1DB4378700CA07ED /* entrybox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrybox.png; sourceTree = "<group>"; };
+		257161101DB4378700CA07ED /* go button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go button.png"; sourceTree = "<group>"; };
+		257161111DB4378700CA07ED /* H1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H1.png; sourceTree = "<group>"; };
+		257161121DB4378700CA07ED /* IR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IR.png; sourceTree = "<group>"; };
+		257161131DB4378700CA07ED /* speklogo.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speklogo.1.png; sourceTree = "<group>"; };
+		2571611B1DB439AF00CA07ED /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,15 @@
 		2512DB311DAC24B20048EA4C = {
 			isa = PBXGroup;
 			children = (
+				2571611B1DB439AF00CA07ED /* splash.png */,
+				2571610D1DB4378700CA07ED /* c13.png */,
+				2571610E1DB4378700CA07ED /* clear button.png */,
+				2571610F1DB4378700CA07ED /* entrybox.png */,
+				257161101DB4378700CA07ED /* go button.png */,
+				257161111DB4378700CA07ED /* H1.png */,
+				257161121DB4378700CA07ED /* IR.png */,
+				257161131DB4378700CA07ED /* speklogo.1.png */,
+				257160D11DAC45EC00CA07ED /* SPEKTRALLE */,
 				2512DB3C1DAC24B20048EA4C /* SPEKTRALLE */,
 				2512DB521DAC24B20048EA4C /* SPEKTRALLETests */,
 				2512DB3B1DAC24B20048EA4C /* Products */,
@@ -83,6 +112,7 @@
 				2512DB461DAC24B20048EA4C /* Images.xcassets */,
 				2512DB481DAC24B20048EA4C /* LaunchScreen.xib */,
 				2512DB3D1DAC24B20048EA4C /* Supporting Files */,
+				2547B2261F76BFEE00EF7A9A /* ResultView.swift */,
 			);
 			path = SPEKTRALLE;
 			sourceTree = "<group>";
@@ -192,9 +222,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257161191DB4378700CA07ED /* IR.png in Resources */,
 				2512DB451DAC24B20048EA4C /* Main.storyboard in Resources */,
+				257161141DB4378700CA07ED /* c13.png in Resources */,
+				257161171DB4378700CA07ED /* go button.png in Resources */,
+				2571611C1DB439AF00CA07ED /* splash.png in Resources */,
+				257161161DB4378700CA07ED /* entrybox.png in Resources */,
+				257161151DB4378700CA07ED /* clear button.png in Resources */,
 				2512DB4A1DAC24B20048EA4C /* LaunchScreen.xib in Resources */,
+				257161181DB4378700CA07ED /* H1.png in Resources */,
 				2512DB471DAC24B20048EA4C /* Images.xcassets in Resources */,
+				2571611A1DB4378700CA07ED /* speklogo.1.png in Resources */,
+				257160D21DAC45EC00CA07ED /* SPEKTRALLE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +253,7 @@
 			files = (
 				2512DB421DAC24B20048EA4C /* ViewController.swift in Sources */,
 				2512DB401DAC24B20048EA4C /* AppDelegate.swift in Sources */,
+				2547B2271F76BFEE00EF7A9A /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +451,7 @@
 				2512DB5B1DAC24B20048EA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2512DB5C1DAC24B20048EA4C /* Build configuration list for PBXNativeTarget "SPEKTRALLETests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +460,7 @@
 				2512DB5E1DAC24B20048EA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
