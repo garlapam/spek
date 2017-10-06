@@ -14,7 +14,6 @@
 		2512DB4A1DAC24B20048EA4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2512DB481DAC24B20048EA4C /* LaunchScreen.xib */; };
 		2512DB561DAC24B20048EA4C /* SPEKTRALLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */; };
 		2547B2271F76BFEE00EF7A9A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547B2261F76BFEE00EF7A9A /* ResultView.swift */; };
-		257160D21DAC45EC00CA07ED /* SPEKTRALLE in Resources */ = {isa = PBXBuildFile; fileRef = 257160D11DAC45EC00CA07ED /* SPEKTRALLE */; };
 		257161141DB4378700CA07ED /* c13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610D1DB4378700CA07ED /* c13.png */; };
 		257161151DB4378700CA07ED /* clear button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610E1DB4378700CA07ED /* clear button.png */; };
 		257161161DB4378700CA07ED /* entrybox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610F1DB4378700CA07ED /* entrybox.png */; };
@@ -47,7 +46,6 @@
 		2512DB541DAC24B20048EA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPEKTRALLETests.swift; sourceTree = "<group>"; };
 		2547B2261F76BFEE00EF7A9A /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
-		257160D11DAC45EC00CA07ED /* SPEKTRALLE */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SPEKTRALLE; sourceTree = "<group>"; };
 		2571610D1DB4378700CA07ED /* c13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c13.png; sourceTree = "<group>"; };
 		2571610E1DB4378700CA07ED /* clear button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear button.png"; sourceTree = "<group>"; };
 		2571610F1DB4378700CA07ED /* entrybox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrybox.png; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				257161111DB4378700CA07ED /* H1.png */,
 				257161121DB4378700CA07ED /* IR.png */,
 				257161131DB4378700CA07ED /* speklogo.1.png */,
-				257160D11DAC45EC00CA07ED /* SPEKTRALLE */,
 				2512DB3C1DAC24B20048EA4C /* SPEKTRALLE */,
 				2512DB521DAC24B20048EA4C /* SPEKTRALLETests */,
 				2512DB3B1DAC24B20048EA4C /* Products */,
@@ -191,9 +188,11 @@
 				TargetAttributes = {
 					2512DB391DAC24B20048EA4C = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0900;
 					};
 					2512DB4E1DAC24B20048EA4C = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0900;
 						TestTargetID = 2512DB391DAC24B20048EA4C;
 					};
 				};
@@ -233,7 +232,6 @@
 				257161181DB4378700CA07ED /* H1.png in Resources */,
 				2512DB471DAC24B20048EA4C /* Images.xcassets in Resources */,
 				2571611A1DB4378700CA07ED /* speklogo.1.png in Resources */,
-				257160D21DAC45EC00CA07ED /* SPEKTRALLE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +383,8 @@
 				INFOPLIST_FILE = SPEKTRALLE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -395,6 +395,8 @@
 				INFOPLIST_FILE = SPEKTRALLE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -413,6 +415,8 @@
 				INFOPLIST_FILE = SPEKTRALLETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPEKTRALLE.app/SPEKTRALLE";
 			};
 			name = Debug;
@@ -428,6 +432,8 @@
 				INFOPLIST_FILE = SPEKTRALLETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPEKTRALLE.app/SPEKTRALLE";
 			};
 			name = Release;

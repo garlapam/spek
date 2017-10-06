@@ -24,7 +24,7 @@ class ResultView: UIViewController{
     var mhz:Int = 0;
     var peak1:Int = 0;
     var peak2:Int = 0;
-    var result = [String]()
+    //var result = [String]()
     //let result = "0, 0, 0"
     
     /*
@@ -36,16 +36,28 @@ class ResultView: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "splash.png")!)
-        println(symbol_select)
-        result.append("0, 0, 0")
-        result = mhz_peaks.componentsSeparatedByString(",")
-        if (result.count == 3) {
+        print(symbol_select)
+        //result.append("0, 0, 0")
+        //result = mhz_peaks.components(separatedBy: ",")
+        var result = mhz_peaks.components(separatedBy: ",")
+        if (result.count > 0) {
+            for i in 0..<result.count {
+                print("Result is ", result[i])
+            }
+            
+            //var mhz:Double? = Double(result[0])
+            //print("MHZ int ", mhz as Any)
+            
+
+            
             //mhz = Int((result[0]))
             //peak1 = result[1].toInt()!
             //peak2 = result[2].toInt()!
         }
-        println(mhz)
-    }
+        else {
+            //ERROR Page (back to home?)
+        }
+}
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
