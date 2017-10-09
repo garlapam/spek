@@ -13,6 +13,7 @@
 		2512DB471DAC24B20048EA4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2512DB461DAC24B20048EA4C /* Images.xcassets */; };
 		2512DB4A1DAC24B20048EA4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2512DB481DAC24B20048EA4C /* LaunchScreen.xib */; };
 		2512DB561DAC24B20048EA4C /* SPEKTRALLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */; };
+		25341E191F8ADEA60024598A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25341E181F8ADEA60024598A /* CustomTableViewCell.swift */; };
 		2547B2271F76BFEE00EF7A9A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547B2261F76BFEE00EF7A9A /* ResultView.swift */; };
 		257161141DB4378700CA07ED /* c13.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610D1DB4378700CA07ED /* c13.png */; };
 		257161151DB4378700CA07ED /* clear button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571610E1DB4378700CA07ED /* clear button.png */; };
@@ -45,6 +46,7 @@
 		2512DB4F1DAC24B20048EA4C /* SPEKTRALLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPEKTRALLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2512DB541DAC24B20048EA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPEKTRALLETests.swift; sourceTree = "<group>"; };
+		25341E181F8ADEA60024598A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		2547B2261F76BFEE00EF7A9A /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		2571610D1DB4378700CA07ED /* c13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c13.png; sourceTree = "<group>"; };
 		2571610E1DB4378700CA07ED /* clear button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear button.png"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				2512DB481DAC24B20048EA4C /* LaunchScreen.xib */,
 				2512DB3D1DAC24B20048EA4C /* Supporting Files */,
 				2547B2261F76BFEE00EF7A9A /* ResultView.swift */,
+				25341E181F8ADEA60024598A /* CustomTableViewCell.swift */,
 			);
 			path = SPEKTRALLE;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				2512DB421DAC24B20048EA4C /* ViewController.swift in Sources */,
 				2512DB401DAC24B20048EA4C /* AppDelegate.swift in Sources */,
+				25341E191F8ADEA60024598A /* CustomTableViewCell.swift in Sources */,
 				2547B2271F76BFEE00EF7A9A /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
