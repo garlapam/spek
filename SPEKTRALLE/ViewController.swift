@@ -14,17 +14,21 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var pickerView: UIPickerView!
     @IBOutlet weak var mhz_peaks: UITextField!
     
+    @IBOutlet weak var logo: UIImageView!
     var symbol_select:Int = 0;
     var mhz_peaks_text:String = "";
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "splash.png")!)
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "splash.png")!)
+        logo.image = UIImage(named: "logo.png")
 
         pickerView.delegate = self
         pickerView.transform = CGAffineTransform(scaleX: 1, y: 1.75);
         
         go_button.addTarget(self, action: #selector(ViewController.pressed(_:)), for: .touchUpInside)
+        
+
         
     }
 

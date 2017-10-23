@@ -23,6 +23,7 @@
 		257161191DB4378700CA07ED /* IR.png in Resources */ = {isa = PBXBuildFile; fileRef = 257161121DB4378700CA07ED /* IR.png */; };
 		2571611A1DB4378700CA07ED /* speklogo.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 257161131DB4378700CA07ED /* speklogo.1.png */; };
 		2571611C1DB439AF00CA07ED /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 2571611B1DB439AF00CA07ED /* splash.png */; };
+		257379211F9D4018003B55D4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 255E247D1F9D2C54000DEE8B /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2512DB551DAC24B20048EA4C /* SPEKTRALLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPEKTRALLETests.swift; sourceTree = "<group>"; };
 		25341E181F8ADEA60024598A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		2547B2261F76BFEE00EF7A9A /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		255E247D1F9D2C54000DEE8B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		2571610D1DB4378700CA07ED /* c13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c13.png; sourceTree = "<group>"; };
 		2571610E1DB4378700CA07ED /* clear button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear button.png"; sourceTree = "<group>"; };
 		2571610F1DB4378700CA07ED /* entrybox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entrybox.png; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2571611B1DB439AF00CA07ED /* splash.png */,
+				255E247D1F9D2C54000DEE8B /* logo.png */,
 				2571610D1DB4378700CA07ED /* c13.png */,
 				2571610E1DB4378700CA07ED /* clear button.png */,
 				2571610F1DB4378700CA07ED /* entrybox.png */,
@@ -232,6 +235,7 @@
 				257161161DB4378700CA07ED /* entrybox.png in Resources */,
 				257161151DB4378700CA07ED /* clear button.png in Resources */,
 				2512DB4A1DAC24B20048EA4C /* LaunchScreen.xib in Resources */,
+				257379211F9D4018003B55D4 /* logo.png in Resources */,
 				257161181DB4378700CA07ED /* H1.png in Resources */,
 				2512DB471DAC24B20048EA4C /* Images.xcassets in Resources */,
 				2571611A1DB4378700CA07ED /* speklogo.1.png in Resources */,
